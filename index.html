@@ -1,0 +1,139 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>देसी Dawaat</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background: #a83232;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    .menu-section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #a83232;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+    .menu-item {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      background: #fff;
+      margin-bottom: 1.5rem;
+      border-left: 5px solid #a83232;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .menu-item img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-right: 1rem;
+    }
+    .item-details {
+      flex: 1;
+    }
+    .item-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    .item-price {
+      color: #555;
+      font-size: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    @media (max-width: 600px) {
+      .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .menu-item img {
+        margin-bottom: 1rem;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    देसी Dawaat
+  </header>
+
+  <section class="menu-section">
+    <h2>Our Menu</h2>
+
+    <div class="menu-item">
+      <img src="https://source.unsplash.com/featured/?corndog" alt="Cheese Corn Dog">
+      <div class="item-details">
+        <div class="item-name">Cheese Corn Dog</div>
+        <div class="item-price">₹49</div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://source.unsplash.com/featured/?chickenstrips" alt="Chicken Strips">
+      <div class="item-details">
+        <div class="item-name">Chicken Strips</div>
+        <div class="item-price">₹49</div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://source.unsplash.com/featured/?chaat" alt="Papri Chaat">
+      <div class="item-details">
+        <div class="item-name">Papri Chaat</div>
+        <div class="item-price">₹39</div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://source.unsplash.com/featured/?thekua" alt="Thekua">
+      <div class="item-details">
+        <div class="item-name">Thekua</div>
+        <div class="item-price">₹29</div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://source.unsplash.com/featured/?mocktail" alt="Pulse Mohito">
+      <div class="item-details">
+        <div class="item-name">Pulse Mohito</div>
+        <div class="item-price">₹29</div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2025 देसी Dawaat. All rights reserved.
+  </footer>
+
+</body>
+</html>
